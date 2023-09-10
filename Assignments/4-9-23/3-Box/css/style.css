@@ -1,0 +1,53 @@
+div{
+    position: absolute;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.r1, .r2, .r3, .r4{
+    border: 1px solid red;
+}
+
+.c1, .c2, .c3, .c4{
+    border: 1px solid green;
+    border-radius: 100%;
+}
+
+.r1{
+    top: 0;
+}
+
+.r2{
+    right: 0px;
+}
+
+.r3{
+    left:0px;
+    bottom: 0px;
+}
+
+.r4{
+    right:0px;
+    bottom: 0px;
+}
+
+.c1{
+    top:0px;
+    left: 50%;
+}
+
+.c2{
+    top: 50%;
+    left:0px;
+}
+
+.c3{
+    top: 50%;
+    right: 0px;
+}
+
+.c4{
+    bottom:0px;
+    left:50%
+}

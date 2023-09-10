@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 217, 0);
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+span{
+    color: white;
+}
+
+.left-container{
+    text-align: left;
+}
+
+p{
+    font-size: large;
+}

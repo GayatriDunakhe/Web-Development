@@ -1,0 +1,27 @@
+
+.container{
+    background-color: lemonchiffon;
+    border: 2px solid maroon;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 10px;
+
+    width: 20%;
+}
+
+img{
+    border: 5px groove orange;
+    height:100px;
+    width:200px;
+}
+
+.sub-container{
+    background-color: yellow;
+    border: 2px dashed orange;
+    padding: 5px;
+    overflow: scroll;
+    overflow-x: auto;
+
+    width:200px;
+    height: 250px;
+}

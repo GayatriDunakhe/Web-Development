@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    font-weight: bold;
+
+    padding: 0px 60px;
+}
+
+.header i{
+    padding: 10px;
+}
+
+.navbar{
+    padding: 0px 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 10px;
+}
+
+.hero-section{
+   background-image: url("../img/texture2.jpg");
+    /* background-color: black; */
+    color: white;
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading{
+    margin: 20px;
+}
+
+.heading h1{
+    font-weight: lighter;
+    font-size: 280%;
+}
+
+.heading hr{
+    width: 20%;
+}
+
+.sub-content{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272727;
+    color: white;
+}
+
+.sub-content p{
+    padding: 0;
+    margin: 0;
+}
+
+.sub-content span{
+    font-family: cursive;
+}
+
+.text-p{
+    color: gray;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+.other-element{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+}

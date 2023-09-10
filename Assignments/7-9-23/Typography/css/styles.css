@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+span{
+    color: rgb(15, 174, 185);
+}
+
+.navbar{
+    margin: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li{
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    padding: 8px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dark-btn{
+    background-color: black;
+    color: white;
+}
+
+.navbar li:hover{
+    color: rgb(15, 174, 185);
+}
+
+.dark-btn:hover{
+    background-color: rgb(15, 174, 185);
+    text-transform: 50px;
+}
+
+.hero-section{
+    text-align: center;
+    padding: 20px;
+    line-height: 120%;
+}

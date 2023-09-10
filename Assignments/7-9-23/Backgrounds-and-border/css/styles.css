@@ -1,0 +1,32 @@
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: wheat;
+}
+
+.container{
+    margin:50px;
+    padding: 20px;
+
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 5px;
+
+    color: gold;
+}
+
+button{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+button:hover{
+    background-color: gold;
+    box-shadow: 2px 2px gainsboro;
+}

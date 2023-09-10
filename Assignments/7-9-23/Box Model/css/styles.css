@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    padding: 50px;
+    border:2px groove blueviolet;
+    box-sizing: content-box;
+    background-color: plum;
+}
+
+.sub-container{
+    width: 70%;
+    height: 50%;
+    margin: 20px;
+    padding: 50px;
+    border:4px dashed gold;
+    box-sizing: content-box;
+    background-color: crimson;
+}
+
+h1, p{
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+button{
+    padding: 5px;
+}
