@@ -1,0 +1,7 @@
+.alert-simple{
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: rgba(142, 179, 248, 0.527);
+    padding: 20px;
+    color: darkblue;
+}

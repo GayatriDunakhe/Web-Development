@@ -1,0 +1,32 @@
+div{
+    border: 2px solid black;
+
+    padding: 20px;
+
+    margin: 30px;
+
+}
+
+/* margin */
+.container{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* margin shorthand */
+.container{
+    margin: 100px;
+}
+
+.container{
+    margin: 100px 200px; 
+    /* top & bottom - 100px left & right - 200px */
+
+    margin: 100px 200px 150px;
+    /* top - 100px  left & right - 200px bottom - 150px */
+
+    margin: 100px 200px 150px 250px;
+    /* top - 100px  right- 200px bottom- 150px left- 250px */
+}

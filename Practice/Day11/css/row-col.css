@@ -1,0 +1,10 @@
+
+.col{
+    width: 200px;
+    display: inline-block;
+
+    border: 1px solid purple;
+    background-color: rgba(218, 142, 248, 0.527);
+    padding: 20px;
+    align-items: center;
+}

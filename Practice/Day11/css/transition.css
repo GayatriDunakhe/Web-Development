@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid brown;
+    transition: background-color 10s border-color 3s;
+}
+
+div:hover{
+    background-color: blueviolet;
+    border-color: crimson;
+    border-width: 20px;
+}
