@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container h1{
+    padding: 20px;
+}
+
+.col-css{
+    background-color: honeydew;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.links:hover{
+    color: white;
+}
+
+.col-css:hover{
+    background-color: burlywood;
+}
+
+.button{
+    margin: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}

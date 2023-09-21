@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../css/style.css">
+
+        <title>Placeholders Component</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <h1 class="text-center">Placeholders Component</h1>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="../img/sample2.jpg" class="card-img-top" alt="sample2">
+                      
+                        <div class="card-body">
+                          <h5 class="card-title">Bast Places to Visit</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis praesentium consectetur dolores odit, in possimus totam ad, officiis porro earum unde minus dolorum rerum quasi minima sed pariatur sit tempora.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card" aria-hidden="true">
+                        <img src="../img/sample2.jpg" class="card-img-top" alt="sample2">
+                        <div class="card-body">
+                          <h5 class="card-title placeholder-glow">
+                            <span class="placeholder col-6"></span>
+                          </h5>
+                          <p class="card-text placeholder-glow">
+                            <span class="placeholder col-7"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-6"></span>
+                            <span class="placeholder col-8"></span>
+                          </p>
+                          <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="../index.html"><button class="button">Back To Home</button></a>
+            </div>
+              
+        </div>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../css/style.css">
+
+        <title>Scrollspy Component</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <h1 class="text-center">Scrollspy Component</h1>
+
+            <div class="row">
+                <div class="col-4">
+                  <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column">
+                      <a class="nav-link" href="#item-1">Web Development</a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-1-1">Front End</a>
+                        <a class="nav-link ms-3 my-1" href="#item-1-2">Back End</a>
+                      </nav>
+                      <a class="nav-link" href="#item-2">Python</a>
+                      <a class="nav-link" href="#item-3">Devops</a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-3-1">AWS</a>
+                        <a class="nav-link ms-3 my-1" href="#item-3-2">GCD</a>
+                      </nav>
+                    </nav>
+                  </nav>
+                </div>
+              
+                <div class="col-8">
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                    <div id="item-1">
+                      <h4>Web Development</h4>
+                      <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+                      <img src="https://www.globalmediainsight.com/asset/images/website-development.jpg" alt="webdev" width="100%">
+                      <p>The word Web Development is made up of two words, that is:</p>
+                      <li>Web: It refers to websites, web pages or anything that works over the internet.</li>
+                      <li>Development: It refers to building the application from scratch.</li>
+                      <p>Web Development can be classified into two ways:</p>
+                      <li>Frontend Development</li>
+                      <li>Backend Development</li>
+                    </div>
+
+                    <div id="item-1-1">
+                      <h5>Front End</h5>
+                      <p>The part of a website where the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.</p>
+                      <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220825163009/Front-End-Frameworks-and-Libraries1.png" alt="frontend" width="100%">
+                    </div>
+
+                    <div id="item-1-2">
+                      <h5>Back End</h5>
+                      <p>Backend is the server side of a website. It is part of the website that users cannot see and interact with. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.</p>
+                      <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210309162115/Backend-design-roadmap.jpeg" alt="backend" width="100%">
+                    </div>
+
+                    <div id="item-2">
+                      <h4>Python</h4>
+                      <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.</p>
+                    </div>
+
+                    <div id="item-3">
+                      <h4>Devops</h4>
+                      <p>DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.</p>
+                      <img src="https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png" alt="devops" width="100%">
+                    </div>
+
+                    <div id="item-3-1">
+                      <h5>AWS</h5>
+                      <p>...</p>
+                    </div>
+
+                    <div id="item-3-2">
+                      <h5>GCD</h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="text-center">
+              <a href="../index.html"><button class="button">Back To Home</button></a>
+            </div>
+              
+        </div>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
