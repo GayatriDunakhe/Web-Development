@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="random"> </p>
+    <script>
+        // document.getElementById("random").innerHTML=Math.random()
+        // Output will be like 0.1441833783756883
+        //  Between 0 and 1
+        // document.getElementById("random").innerHTML=Math.floor(Math.random() * 10)
+
+        //  Between 0 and 9
+        // document.getElementById("random").innerHTML=Math.floor(Math.random() * 9)
+
+        //  Between 1 and 100
+        // document.getElementById("random").innerHTML=Math.floor((Math.random() * 100)+1)
+
+        // random items
+        let items = ["apple", "mango", "banana", "grapes"]
+        var rnum = Math.floor(Math.random()* items.length); 
+
+        // document.getElementById("random").innerHTML = items[rnum]
+
+        // dice
+        var dice = 6
+        // document.getElementById("random").innerHTML = Math.floor((Math.random() * 6) + 1)
+
+        // alphabets
+        let alpha = "abcdefghijklmnopqurstuvwxyz"
+        var ch = Math.floor(Math.random() * alpha.length)
+        document.getElementById("random").innerHTML = alpha[ch]
+
+    </script>
+</body>
+</html>
