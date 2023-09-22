@@ -1,0 +1,41 @@
+/* Element selector */
+body{
+    /* to reset the defalut space */
+    margin: 0px;
+    padding: 0px;
+
+    /* Font */
+    font-family: 'Recursive', sans-serif;
+
+    /* Background color */
+    background-color: #EDEBD6;
+}
+
+.navbar{
+    background-color: #878484;
+    position: fixed;
+    height: 100%;
+}
+
+.navbar li{
+    padding: 10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    /* to make horizonal nevbar*/
+    /* display: flex; */
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+}
+
+.gallery{
+    margin-left: 12%;
+}
