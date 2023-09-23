@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <button onclick="viewcount()">Open</button>
+        <p id="displaycount"></p>
+
+
+        <script>
+            let count = 0
+            function viewcount(){
+                count++
+                document.getElementById("displaycount").innerHTML = count;
+            }
+        </script>
+        
+    </body>
+    <script src="js/script.js"></script>
+</html>

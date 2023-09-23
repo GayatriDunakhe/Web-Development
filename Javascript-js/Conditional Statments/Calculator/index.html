@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <title> Calculator</title>
+    </head>
+    <body>
+
+        <label>Enter number1:</label>
+        <input type="number" id="num1">
+
+        <br><br>
+
+        <label>Enter number2:</label>
+        <input type="number" id="num2">
+
+        <select name="dropdown" id="calculate" onclick="calculate()">
+            <option value="default">Select calculation operation</option>
+            <option value="add">add</option>
+            <option value="sub">sub</option>
+            <option value="mul">mul</option>
+            <option value="div">div</option>
+        </select>
+
+        <br><br>
+
+        <p id="result"></p>
+        
+    </body>
+    <script src="js/script.js"></script>
+</html>
